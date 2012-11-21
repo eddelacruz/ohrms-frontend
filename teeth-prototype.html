@@ -5,14 +5,11 @@
 	<script type="text/javascript">
 		window.onload = function() {
 			var obj = Raphael("paper");
-			obj.path("M 100 200 200 200 300 200")
-				.hover(function() {
-					this.attr({"stroke-width": 10})
-					.animate({
-						path: "M 100 200 350 200 300 200z"
-					}, 2000, "elastic");
+			obj.path("M 100 200 200 200 300 200");
+			obj.rect(0, 0, 50, 50).attr({
+					fill : "red"
 				});
-	
+		}
 	</script>
 	<style type="text/css">
 		#paper {
