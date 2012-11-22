@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>prototype</title>
+	<script type="text/javascript" src="js/raphael-min.js"></script>
+	<script type="text/javascript">
+		window.onload = function() {
+			var obj = Raphael("paper");
+			obj.path("M 100 200 200 200 300 200")
+				.hover(function() {
+					this.attr({"stroke-width": 10})
+					.animate({
+						path: "M 100 200 350 200 300 200z"
+					}, 2000, "elastic");
+				});
+	
+	</script>
+	<style type="text/css">
+		#paper {
+			width: 400px;
+			height: 400px;
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+	<div id="paper">
+
+	</div>
+</body>
+</html>
