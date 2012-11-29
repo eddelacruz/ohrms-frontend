@@ -740,10 +740,14 @@ ul.iconlist li {
 .box .columns, .simple-box .columns {
   overflow: hidden;
 }
-.box .columns .left, .simple-box .columns .left {
+.box > .columns .left, .simple-box > .columns .left {
   width: 48%;
   border-right: 1px solid #ccc;
   margin-right: 5px;
+}
+.columns > .form-image .left{
+  width: 170px;
+  border-right: 0 none;
 }
 .box .columns .right, .simple-box .columns .right {
   float: none;
@@ -2195,4 +2199,58 @@ nav.jsubmenu .submenu li.last a {
 }
 .glyph.closed-lock, .glyph.opened-lock {
   font-size: 17px;
+}
+/*================
+    Form
+================== */
+.form-label {
+  background: #fff;
+  background: -webkit-linear-gradient(top, #ffffff, #f0f0f0);
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  color: #484848;
+  width: 300px;
+  height: 25px;
+  padding: 3px 8px 0px 8px;
+}
+.form-label-iconized {
+  padding-left: 30px;
+}
+.form-label-iconized .glyph {
+  position: absolute;
+}
+.form-image {
+  width: 170px;
+  padding: 5px;
+  position: relative;
+}
+.form-details {
+  position: relative;
+}
+.patient-image {
+  width: 160px;
+  height: 160px;
+  float: left;
+  padding: 4px;
+  border: 1px solid #DDD;
+  background: white;
+  margin-bottom: 5px;
+}
+.badge:hover {
+  background: #2DAAE0;
+  background: -webkit-linear-gradient(top, #59BCE7, #2A80D6);
+}
+.badge {
+  padding: 5px 6px 5px 6px;
+  cursor: pointer;
+  border-bottom: #999 1px solid;
+  border-right: #999 1px solid;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  color: white;
+  -webkit-border-radius: 317px;
+  -moz-border-radius: 317px;
+  border-radius: 317px;
+  background: #2A80D6;
+  background: -webkit-linear-gradient(top, #2DAAE0, #2A80D6);
+  border-color: #2673C3;
 }

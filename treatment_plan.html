@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html class=" -webkit-"><head>
         <meta charset="UTF-8">
-        <title>Sabertooth - Dental Chart</title>
-
+        <title>Sabertooth - Treatment Plan</title>
         <!-- JAVASCRIPTs -->
         <!--[if lt IE 9]>
             <script language="javascript" type="text/javascript" src="js/jqPlot/excanvas.min.js"></script>
@@ -62,8 +61,8 @@
         <script src="js/jquery.metadata.js"></script>
         <script src="js/main.js"></script>
         <script src="js/demo.js"></script>
-        <script src="js/raphael-min.js"></script>
-        <script src="js/dental-chart-adult.js"></script>
+        <script type="text/javascript" src="js/raphael-min.js"></script>
+        <script type="text/javascript" src="js/teeth-chart-adult.js"></script>
     </head>
     <body style="background-image: url(img/bg-pattern-5.png); ">
         <!-- wrapper -->
@@ -74,8 +73,8 @@
                         <!-- navigation menu -->
                         <nav class="main-nav">
                             <ul>
-                                <li class="active first"><a href="#" name="Dashboard"><span class="glyph cloud"></span> Dashboard</a></li>
-                                <li><a href="#" name="Patients"><span class="glyph user"></span> Patients</a></li>
+                                <li class="first"><a href="#" name="Dashboard"><span class="glyph cloud"></span> Dashboard</a></li>
+                                <li class="active"><a href="#" name="Patients"><span class="glyph user"></span> Patients</a></li>
                                 <li><a href="#" name="Scheduler"><span class="glyph clock"></span> Scheduler</a></li>
                                 <li><a href="#" name="Services"><span class="glyph list"></span> Services</a></li>
                                 <li><a href="charts.php" name="Surveillance"><span class="glyph rating"></span> Surveillance</a></li>
@@ -146,7 +145,7 @@
                         <header>
                             <div class="inner">
                                 <div class="left title">
-                                    <h1>Add PatienFsvt</h1>
+                                    <h1>Add Patient</h1>
                                 </div>
                                 <div class="right">
                                     <a href="#" class="close">close</a>
@@ -193,24 +192,95 @@
 
                             <!-- # Treatment Plan -->
                             <header class="grid_12 head">
-                                <h1>Treatment Plan - Mila Kunis</h1>
+                                <h1>Treatment Plan</h1>
                                 <div class="clear"></div><span class="divider"></span>
                             </header>
 
-                            <!-- Dental Chart -->
-                            <div class="simple-box grid_12">
-                                <div class="inner">
-                                    <header>
-                                        <h1>Dental Chart</h1>
-                                    </header>
+                            <!-- Profile, Dental Chart, Medical History -->
+                            <div class="box grid_12">
+                                <header>
+                                    <div class="inner">
+                                        <div class="left title">
+                                            <h1>Kunis, Mila Dionisio</h1>
+                                        </div>
+                                        <div class="right">
+                                            <nav>
+                                                <ul>
+                                                    <li class="active first"><a href="#tab-1">Profile</a></li>
+                                                    <li><a href="#tab-2">Personal Dental Chart</a></li>
+                                                    <li><a href="#tab-3">Medical History</a></li>
+                                                </ul>
+                                            </nav>
+                                            <a href="#" class="close">close</a>
+                                        </div>
+                                    </div>
+                                </header>
 
-                                    <div class="box-content">
-                                      <div id="svg-chart">
-                                      </div>
+                                <div class="box-content">
+                                    <div id="tab-1" class="tab">
+                                        <div class="columns">                                     
+                                            <div class="form-image left center">
+                                                <div class="itemdata">
+                                                    <a href="img/thumbs/media1-160x160.jpg" class="prettyPhoto thumbnail" title="Photo description"><img class="patient-image" src="img/thumbs/media1-160x160.jpg" alt="profilePicture"></a>
+                                                    <div class="categories">
+                                                    <a href="#" class="bt grey small"><span class="glyph image"></span>Change image</a>
+                                                    <a href="#" class="bt blue small"><span class="glyph html-code"></span>Edit</a>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="form-details right">
+                                                <div class="field left">
+                                                    <ul>
+                                                        <li>
+                                                            <label>Patient ID:</label>
+                                                            <label class="form-label">P-11212012</label>
+                                                            <div class="form-label-iconized">
+                                                                <label class="glyph user" for="text-input-icon" style="top: 32px; left: 8px;"></label>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <label>First Name:</label>
+                                                            <label class="form-label">Mila</label>
+                                                        </li>
+                                                        <li>
+                                                            <label>Middle Name:</label>
+                                                            <label class="form-label">Dionisio</label>
+                                                        </li>
+                                                        <li>
+                                                            <label>Last Name:</label>
+                                                            <label class="form-label">Kunis</label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="field right">
+                                                    <ul>
+                                                        <li>
+                                                            <label>Address:</label>
+                                                            <label class="form-label">#23 Poblacion, Malolos City, Bulacan</label>
+                                                        </li>
+                                                        <li>
+                                                            <label>Contact Number:</label>
+                                                            <label class="form-label">12091029</label>
+                                                        </li>
+                                                        <li>
+                                                            <label>Birthdate:</label>
+                                                            <label class="form-label">11/12/2012</label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="tab-2" class="tab" style="display: none; ">
+                                        <p>Lorem <a href="#">ipsum dolor</a> sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. <a href="#">Ut wisi enim</a> ad minim veniam, quis nostrud exerci tation <strong>ullamcorper</strong> suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla <strong>facilisis at vero eros et accumsan</strong> et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. <em>Nam liber tempor</em> cum soluta nobis eleifend option congue nihil <a href="#">imperdiet doming id</a> quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. </p>
+                                    </div>
+                                    <div id="tab-3" class="tab">
+                                        <img src="img/chart.jpg" width="590" height="300" alt="chart">
                                     </div>
                                 </div>
                             </div>
-                            <!-- /Dental Chart -->
+                            <!-- /Profile, Dental Chart, Medical History -->
                         </div>
                     </div>
                 </div>
@@ -223,6 +293,5 @@
                 <p>© Copyright 2012 - Sabertooth | Juan Tamad - <a href="#" target="_blank">Sabertooth Technologies</a></p>
             </div>
         </footer>
-    
     </body>
 </html>
