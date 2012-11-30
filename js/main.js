@@ -598,7 +598,6 @@ jQuery(function($){
                 }
                 $this.dataTable(ownOptions);
             });
-
         })();
     });
 });

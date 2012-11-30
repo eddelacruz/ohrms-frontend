@@ -62,7 +62,7 @@
         <script src="js/main.js"></script>
         <script src="js/demo.js"></script>
         <script type="text/javascript" src="js/raphael-min.js"></script>
-        <script type="text/javascript" src="js/teeth-chart-adult.js"></script>
+        <script type="text/javascript" src="js/dental-chart-adult.js"></script>
     </head>
     <body style="background-image: url(img/bg-pattern-5.png); ">
         <!-- wrapper -->
@@ -235,9 +235,6 @@
                                                         <li>
                                                             <label>Patient ID:</label>
                                                             <label class="form-label">P-11212012</label>
-                                                            <div class="form-label-iconized">
-                                                                <label class="glyph user" for="text-input-icon" style="top: 32px; left: 8px;"></label>
-                                                            </div>
                                                         </li>
                                                         <li>
                                                             <label>First Name:</label>
@@ -273,7 +270,87 @@
                                         </div>
                                     </div>
                                     <div id="tab-2" class="tab" style="display: none; ">
-                                        <p>Lorem <a href="#">ipsum dolor</a> sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. <a href="#">Ut wisi enim</a> ad minim veniam, quis nostrud exerci tation <strong>ullamcorper</strong> suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla <strong>facilisis at vero eros et accumsan</strong> et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. <em>Nam liber tempor</em> cum soluta nobis eleifend option congue nihil <a href="#">imperdiet doming id</a> quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. </p>
+                                        <ul class="button-bar blue small">
+                                            <li class="first active"><a href="#">Adult</a></li>
+                                            <li class="last"><a href="#">Child</a></li>
+                                        </ul>
+                                        <!--  SVG Chart -->
+                                        <div id="svg-chart">
+                                        </div>
+                                        <!--  /SVG Chart -->
+                                        <!-- Dental Services -->
+                                        <div class="box grid_11">
+                                            <header>
+                                                <div class="inner">
+                                                    <div class="left title">
+                                                        <h1>Dental Services</h1>
+
+                                                    </div>
+                                                    <div class="right">
+                                                        <a href="#" class="close">close</a>
+                                                    </div>
+                                                </div>
+                                            </header>
+
+                                            <div class="box-content">
+                                                <div class="grid_11 table">
+                                                    <div>
+                                                        <table>
+                                                            <thead>
+                                                                <tr>
+                                                                    <th class="first">Name</th>
+                                                                    <th>Code</th>
+                                                                    <th>Price</th>
+                                                                    <th>Target</th>
+                                                                    <th>Date Performed</th>
+                                                                    <th class="last">Status</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Oral Prophylaxis</td>
+                                                                    <td>OP</td>
+                                                                    <td><span class="pesos">P</span> 500.00</td>
+                                                                    <td>Inclusive</td>
+                                                                    <td>11/30/2012 5:00 PM</td>
+                                                                    <td><center><span class="label label-success">Success</span></center></td>
+                                                                </tr>
+                                                                <tr class="even">
+                                                                    <td>Periodic Oral Evaluation</td>
+                                                                    <td>POE</td>
+                                                                    <td><span class="pesos">P</span> 500.00</td>
+                                                                    <td>Inclusive</td>
+                                                                    <td>11/30/2012 5:00 PM</td>
+                                                                    <td><center><span class="label label-success">Success</span></center></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Extraction</td>
+                                                                    <td>EX</td>
+                                                                    <td><span class="pesos">P</span> 300.00</td>
+                                                                    <td>Selective</td>
+                                                                    <td>11/30/2012 5:00 PM</td>
+                                                                    <td><center><span class="label label-warning">Pending</span></center></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <footer class="extension bottom inright pagination right">
+                                                            <nav>
+                                                                <ul>
+                                                                    <li class="first"><a href="#">« previous</a></li>
+                                                                    <li><a href="#">01</a></li>
+                                                                    <li><a href="#">02</a></li>
+                                                                    <li class="active"><a href="#">03</a></li>
+                                                                    <li><a href="#">04</a></li>
+                                                                    <li><a href="#">05</a></li>
+                                                                    <li class="disabled last"><span>disabled »</span></li>
+                                                                </ul>
+                                                            </nav>
+                                                        </footer>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- /Dental Services -->
                                     </div>
                                     <div id="tab-3" class="tab">
                                         <img src="img/chart.jpg" width="590" height="300" alt="chart">
