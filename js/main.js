@@ -502,7 +502,7 @@ jQuery(function($){
                     $box.toggleClass('closed');
                 }else{
                     $boxContent.slideDown();
-                    $box.toggleClass('closed');
+                    //$box.toggleClass('closed');
                 }
                 e.preventDefault();
             }
