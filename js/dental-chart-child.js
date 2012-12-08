@@ -1,5 +1,5 @@
     window.onload = function() {
-      var obj = Raphael("svg-chart-child");
+      var obj = Raphael("svg-chart");
       var f1_fill = obj.path("")
       .attr({
         fill: "yellow",

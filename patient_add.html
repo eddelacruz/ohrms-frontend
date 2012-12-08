@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class=" -webkit-"><head>
         <meta charset="UTF-8">
-        <title>Sabertooth - Treatment Plan</title>
+        <title>Sabertooth - Dashboard</title>
         <!-- JAVASCRIPTs -->
         <!--[if lt IE 9]>
             <script language="javascript" type="text/javascript" src="js/jqPlot/excanvas.min.js"></script>
@@ -62,7 +62,7 @@
         <script src="js/main.js"></script>
         <script src="js/demo.js"></script>
         <script type="text/javascript" src="js/raphael-min.js"></script>
-        <script type="text/javascript" src="js/dental-chart-adult.js"></script>
+        <script type="text/javascript" src="js/dental-chart-child.js"></script>
     </head>
     <body style="background-image: url(img/bg-pattern-5.png); ">
         <!-- wrapper -->
@@ -141,7 +141,7 @@
 
                     <div id="content">
                     <!-- AddPatientModal -->
-                    <div class="box grid_11" id="addPatientModal" hidden="">
+                    <div class="box grid_8" id="addPatientModal" hidden="">
                         <header>
                             <div class="inner">
                                 <div class="left title">
@@ -154,53 +154,10 @@
                         </header>
                     
                         <div class="box-content">
-                            <div class="">                                     
-                                <div class="form-details">
-                                    <div class="field left">
-                                        <ul>
-                                            <li>
-                                                <label class="upper">Patient ID:</label>
-                                                <input type="text">
-                                            </li>
-                                            <li>
-                                                <label>First Name:</label>
-                                                <input type="text">
-                                            </li>
-                                            <li>
-                                                <label>Middle Name:</label>
-                                                <input type="text">
-                                            </li>
-                                            <li>
-                                                <label>Last Name:</label>
-                                                <input type="text">
-                                            </li>
-                                            <li>
-                                                <label>Image:<br></label>
-                                                <div class="customfile"><input type="file" class="custom-file-input customfile-input" style="left: -181px; top: -1px;"></div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="field right">
-                                        <ul>
-                                            <li>
-                                                <label class="upper">Address:</label>
-                                                <textarea id="textarea-input-grow" class="autogrow" style="height: 50px; overflow: hidden; margin-top: 0px; margin-bottom: 0px;" rows="2"></textarea>
-                                            </li>
-                                            <li>
-                                                <label>Contact Number:</label>
-                                                <input type="text">
-
-                                            </li>
-                                            <li>
-                                                <label>Birthdate:</label>
-                                                <input type="text" class="datepicker hasDatepicker" id="datepicker">
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                            AddPatientModal
                             <footer class="pane">
-                                <a href="#" class="bt blue right">Add</a>
+                                <a href="#" class="close bt red">Close modal</a>
+                                <a href="#" class="bt blue">Custom button</a>
                             </footer>
                         </div>
                     </div>
@@ -233,13 +190,12 @@
 
                         <div class="main-box">
 
-                            <!-- # Treatment Plan -->
-                            <header class="grid_12 head">
-                                <h1>Treatment Plan</h1>
+                            <!-- Add Patient -->
+                            <header class="grid_12 head center">
+                                <h1>Add Patient</h1>
                                 <div class="clear"></div><span class="divider"></span>
                             </header>
 
-                            <!-- Profile, Dental Chart, Medical History -->
                             <div class="box grid_12">
                                 <header>
                                     <div class="inner">
@@ -261,56 +217,54 @@
 
                                 <div class="box-content">
                                     <div id="tab-1" class="tab">
-                                        <div class="columns">                                     
-                                            <div class="form-image left center">
-                                                <div class="itemdata">
-                                                    <a href="img/thumbs/media1-160x160.jpg" class="prettyPhoto thumbnail" title="Photo description"><img class="patient-image" src="img/thumbs/media1-160x160.jpg" alt="profilePicture"></a>
-                                                    <div class="categories">
-                                                    <a href="#" class="bt grey small"><span class="glyph image"></span>Change image</a>
-                                                    <a href="#" class="bt blue small"><span class="glyph html-code"></span>Edit</a>
-                                                    </div>
-                                                </div>
-                                                
-                                            </div>
-                                            <div class="form-details right">
+                                        <div class="">                                     
+                                            <div class="form-details">
                                                 <div class="field left">
                                                     <ul>
                                                         <li>
-                                                            Patient ID:
-                                                            <label class="form-label">P-11212012</label>
+                                                            <label class="upper">Patient ID:</label>
+                                                            <input type="text">
                                                         </li>
                                                         <li>
-                                                            First Name:
-                                                            <label class="form-label">Mila</label>
+                                                            <label>First Name:</label>
+                                                            <input type="text">
                                                         </li>
                                                         <li>
-                                                            Middle Name:
-                                                            <label class="form-label">Dionisio</label>
+                                                            <label>Middle Name:</label>
+                                                            <input type="text">
                                                         </li>
                                                         <li>
-                                                            Last Name:
-                                                            <label class="form-label">Kunis</label>
+                                                            <label>Last Name:</label>
+                                                            <input type="text">
+                                                        </li>
+                                                        <li>
+                                                            <label>Image:<br></label>
+                                                            <div class="customfile"><input type="file" class="custom-file-input customfile-input" style="left: -181px; top: -1px;"></div>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="field right">
                                                     <ul>
                                                         <li>
-                                                            Address:
-                                                            <label class="form-label">#23 Poblacion, Malolos City, Bulacan</label>
+                                                            <label class="upper">Address:</label>
+                                                            <textarea id="textarea-input-grow" class="autogrow" style="height: 50px; overflow: hidden; margin-top: 0px; margin-bottom: 0px;" rows="2"></textarea>
                                                         </li>
                                                         <li>
-                                                            Contact Number:
-                                                            <label class="form-label">12091029</label>
+                                                            <label>Contact Number:</label>
+                                                            <input type="text">
+
                                                         </li>
                                                         <li>
-                                                            Birthdate:
-                                                            <label class="form-label">11/12/2012</label>
+                                                            <label>Birthdate:</label>
+                                                            <input type="text" class="datepicker hasDatepicker" id="datepicker">
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
+                                        <footer class="pane">
+                                            <input type="submit" class="bt blue right" value="Add">
+                                        </footer>
                                     </div>
                                     <div id="tab-2" class="tab" style="display: none; ">
                                         <ul class="button-bar blue small">
@@ -392,6 +346,9 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                            <footer class="pane">
+                                                <input type="submit" class="bt blue right" value="Save Changes">
+                                            </footer>
                                         </div>
                                         <!-- /Dental Services -->
                                     </div>
@@ -472,10 +429,14 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <footer class="pane">
+                                            <input type="submit" class="bt blue right" value="Save Changes">
+                                        </footer>    
                                     </div>
                                 </div>
                             </div>
-                            <!-- /Profile, Dental Chart, Medical History -->
+                            <!-- /Add Patient -->
+
                         </div>
                     </div>
                 </div>
