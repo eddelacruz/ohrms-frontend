@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="fe.svg">
+   sodipodi:docname="fe-fill.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,14 +26,14 @@
      inkscape:pageshadow="2"
      inkscape:zoom="4"
      inkscape:cx="406.25371"
-     inkscape:cy="326.43568"
+     inkscape:cy="306.43568"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1366"
-     inkscape:window-height="746"
+     inkscape:window-width="1024"
+     inkscape:window-height="538"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -56,7 +56,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <cc:license
            rdf:resource="" />
       </cc:Work>
@@ -68,8 +68,9 @@
      id="layer1"
      transform="translate(0,-652.36218)">
     <path
-       style="fill:#ff0000"
-       d="m 381.0625,733.29968 c 0.81387,-0.0758 1.64994,0.0814 2.5,0.46875 2.91348,1.32747 8.5,8.82552 8.5,11.40625 0,1.01185 0.72455,2.85279 1.59375,4.09375 2.11378,3.01785 2.35945,11.77472 0.375,13.03125 -0.81425,0.51557 -3.23493,0.93655 -5.40625,0.96875 -2.17133,0.0321 -5.73492,0.71775 -7.90625,1.5 -5.90388,2.12694 -7.1078,1.80828 -9.3125,-2.375 -0.96812,-1.83681 -0.99559,-4.03312 -0.0937,-10.34375 1.62262,-11.3541 5.35511,-18.34067 9.75,-18.75 z"
-       id="rect3047" />
+       id="rect3907"
+       transform="translate(0,652.36218)"
+       style="fill:#00ff00"
+       d="m 381.0625,80.9375 c -4.39489,0.40933 -8.12738,7.3959 -9.75,18.75 -0.90189,6.31063 -0.87437,8.50694 0.0937,10.34375 2.2047,4.18328 3.40862,4.50194 9.3125,2.375 2.17133,-0.78225 5.73492,-1.4679 7.90625,-1.5 2.17132,-0.0322 4.592,-0.45318 5.40625,-0.96875 1.98445,-1.25653 1.73878,-10.0134 -0.375,-13.03125 -0.8692,-1.24096 -1.59375,-3.0819 -1.59375,-4.09375 0,-2.58073 -5.58652,-10.07878 -8.5,-11.40625 -0.85006,-0.38735 -1.68613,-0.54455 -2.5,-0.46875 z" />
   </g>
 </svg>
