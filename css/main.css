@@ -2007,7 +2007,7 @@ ul.userlist li:hover a {
 /*================
     Calendar
 ================== */
-.fullcalendar .fc-content table {
+.fullcalendar .fc-content table, #calendar .fc-content table {
   background: #fff;
 }
 .fc-event-skin {
