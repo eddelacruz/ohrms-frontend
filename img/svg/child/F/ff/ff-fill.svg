@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="ff.svg">
+   sodipodi:docname="ff-fill.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -32,8 +32,8 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1366"
-     inkscape:window-height="746"
+     inkscape:window-width="1024"
+     inkscape:window-height="538"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -56,7 +56,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <cc:license
            rdf:resource="" />
       </cc:Work>
@@ -68,8 +68,9 @@
      id="layer1"
      transform="translate(0,-652.36218)">
     <path
-       style="fill:#ff0000"
-       d="m 426.5,730.83093 4.4375,3.90625 c 4.02475,3.54273 4.47871,4.39091 5.03125,9.53125 0.33409,3.10808 0.99118,7.39453 1.46875,9.5 1.14953,5.06784 -0.11117,8.01935 -4,9.375 -4.02085,1.40167 -12.63098,1.38414 -15.21875,-0.0312 -4.84514,-2.6501 -5.45559,-6.20469 -2.9375,-17.0625 2.10939,-9.09547 3.12012,-10.88301 7.4375,-13.1875 l 3.78125,-2.0313 z"
-       id="rect3055" />
+       id="rect3943"
+       transform="translate(0,652.36218)"
+       style="fill:#00ff00"
+       d="M 426.5,78.46875 422.71875,80.5 c -4.31738,2.30449 -5.32811,4.09203 -7.4375,13.1875 -2.51809,10.85781 -1.90764,14.4124 2.9375,17.0625 2.58777,1.41534 11.1979,1.43292 15.21875,0.0312 3.88883,-1.35565 5.14953,-4.30716 4,-9.375 -0.47757,-2.10547 -1.13466,-6.39192 -1.46875,-9.5 -0.55254,-5.14034 -1.0065,-5.98852 -5.03125,-9.53125 L 426.5,78.46875 z" />
   </g>
 </svg>

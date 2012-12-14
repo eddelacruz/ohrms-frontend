@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="mc.svg">
+   sodipodi:docname="mc-fill.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,14 +26,14 @@
      inkscape:pageshadow="2"
      inkscape:zoom="4"
      inkscape:cx="361.24328"
-     inkscape:cy="231.77732"
+     inkscape:cy="224.96153"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1366"
-     inkscape:window-height="746"
+     inkscape:window-width="1024"
+     inkscape:window-height="538"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -56,7 +56,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <cc:license
            rdf:resource="" />
       </cc:Work>
@@ -68,8 +68,9 @@
      id="layer1"
      transform="translate(0,-652.36218)">
     <path
-       style="fill:#ff0000"
-       d="m 309.8125,788.26843 c 1.4058,0.0233 3.05535,0.75789 6.53125,2.5 3.38314,1.69561 6.91579,4.14048 7.84375,5.4375 1.61446,2.25654 1.57723,2.64099 -0.90625,9.125 -1.42746,3.72687 -3.25771,7.80985 -4.0625,9.0625 -1.80907,2.81578 -8.06269,6.07735 -10.0625,5.25 -6.38223,-2.64043 -13.24254,-11.37578 -13.09375,-16.625 0.11196,-3.94947 6.65409,-12.24183 11.125,-14.09375 1.01411,-0.42006 1.78152,-0.67023 2.625,-0.65625 z"
-       id="rect3035" />
+       id="rect3839"
+       transform="translate(0,652.36218)"
+       style="fill:#00ff00"
+       d="m 309.8125,135.90625 c -0.84348,-0.014 -1.61089,0.23619 -2.625,0.65625 -4.47091,1.85192 -11.01304,10.14428 -11.125,14.09375 -0.14879,5.24922 6.71152,13.98457 13.09375,16.625 1.99981,0.82735 8.25343,-2.43422 10.0625,-5.25 0.80479,-1.25265 2.63504,-5.33563 4.0625,-9.0625 2.48348,-6.48401 2.52071,-6.86846 0.90625,-9.125 -0.92796,-1.29702 -4.46061,-3.74189 -7.84375,-5.4375 -3.4759,-1.74211 -5.12545,-2.4767 -6.53125,-2.5 z" />
   </g>
 </svg>
