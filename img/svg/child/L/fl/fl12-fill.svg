@@ -24,16 +24,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.9999999"
-     inkscape:cx="583.79756"
-     inkscape:cy="98.911293"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="567.66927"
+     inkscape:cy="85.027398"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1366"
-     inkscape:window-height="746"
+     inkscape:window-width="1024"
+     inkscape:window-height="538"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -68,9 +68,9 @@
      id="layer1"
      transform="translate(0,-652.36218)">
     <path
-       style="fill:#ff5555;fill-opacity:1;stroke:none"
-       d="M 538.09375 292.3125 L 538.09375 300.96875 L 554.28125 300.96875 L 554.28125 295.21875 C 548.77345 296.79489 545.80141 296.16572 539.5 292.96875 C 539.0409 292.73583 538.56682 292.52596 538.09375 292.3125 z "
+       id="rect4197"
        transform="translate(0,652.36218)"
-       id="rect4070-9-8-7" />
+       style="fill:#00ff00"
+       d="m 565.75,291.5 c -0.47073,0 -4.04123,1.15703 -7.9375,2.5625 -5.21998,1.88295 -8.21557,2.46921 -11.75,1.59375 l 0,10.65625 23.03125,0 c 0.38625,-1.67945 0.625,-3.25092 0.625,-4.34375 0,-4.23451 -2.36352,-10.46875 -3.96875,-10.46875 z" />
   </g>
 </svg>

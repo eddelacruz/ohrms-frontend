@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="mi31-fill.svg">
+   sodipodi:docname="mi-fill.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -24,16 +24,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.313708"
-     inkscape:cx="546.11943"
-     inkscape:cy="246.26126"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="546.50556"
+     inkscape:cy="241.92077"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1366"
-     inkscape:window-height="746"
+     inkscape:window-width="1024"
+     inkscape:window-height="538"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -68,9 +68,9 @@
      id="layer1"
      transform="translate(0,-652.36218)">
     <path
-       style="fill:#ff5555;fill-opacity:1;stroke:none"
-       d="M 541.75 160.40625 L 541.75 172.125 C 543.88106 173.35543 545.92863 173.91254 547.53125 173.46875 C 548.61691 173.16811 550.84026 172.57807 552.46875 172.15625 C 553.28388 171.94511 554.11529 171.67702 554.9375 171.375 L 554.9375 160.40625 L 541.75 160.40625 z "
+       id="rect4085"
        transform="translate(0,652.36218)"
-       id="rect4070-9" />
+       style="fill:#00ff00"
+       d="m 542.8125,159.6875 c -0.25779,0.54396 -0.6644,0.57574 -1.15625,0.15625 l 0,12.21875 c 1.41832,0.83119 2.78656,1.35426 4.03125,1.5 l 1.34375,0 c 0.16889,-0.0246 0.33974,-0.0494 0.5,-0.0937 1.08566,-0.30064 3.30901,-0.89068 4.9375,-1.3125 0.72414,-0.18757 1.45643,-0.42738 2.1875,-0.6875 l 0,-11.78125 -2.15625,0 c -1.13328,4.09532 -2.5,4.8092 -2.5,0.78125 0,-0.21683 0.0286,-0.48377 0.0625,-0.78125 l -7.25,0 z" />
   </g>
 </svg>

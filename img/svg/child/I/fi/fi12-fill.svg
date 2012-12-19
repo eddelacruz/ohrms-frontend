@@ -24,16 +24,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.313708"
-     inkscape:cx="536.47858"
-     inkscape:cy="306.59448"
+     inkscape:zoom="4"
+     inkscape:cx="542.67639"
+     inkscape:cy="311.82329"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1366"
-     inkscape:window-height="746"
+     inkscape:window-width="1024"
+     inkscape:window-height="538"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -68,9 +68,9 @@
      id="layer1"
      transform="translate(0,-652.36218)">
     <path
-       style="fill:#ff5555;fill-opacity:1;stroke:none"
-       d="M 548 78 C 545.11853 78.025799 542.57932 78.213587 540.40625 78.5625 L 540.40625 89.0625 L 554.09375 89.0625 L 554.09375 78.125 C 552.41503 77.997742 550.42395 77.978296 548 78 z "
+       id="rect4051"
        transform="translate(0,652.36218)"
-       id="rect4070-9-8-7" />
+       style="fill:#00ff00"
+       d="m 548,78 c -0.41673,0.0037 -0.7855,0.02071 -1.1875,0.03125 l 0,16.78125 19.34375,0 c -0.41838,-1.978501 -1.02547,-4.359845 -1.6875,-6.625 C 561.7618,78.92554 560.08859,77.89176 548,78 z" />
   </g>
 </svg>
